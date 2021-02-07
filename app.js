@@ -55,12 +55,13 @@ const recipe = mealsRecipe => {
     }
     
     const ul = document.createElement('ul');
-
-    for (let i = 0; i < recipeElement.length; i++) {
+    
+    recipeElement.forEach(element=>{
         const li = document.createElement('li');
-        li.innerText = recipeElement[i];
+        li.innerText = element;
         ul.appendChild(li);
-    }
+    
+    })
 
 
     const mealIngredientsDescription= document.getElementById('meal-ingredients-area');
