@@ -67,6 +67,7 @@ const recipe = mealsRecipe => {
     mealIngredientsDescription.innerHTML = `
     <img class="style-image-meal" src="${mealsRecipe.strMealThumb}" alt="">
     <h1>${mealsRecipe.strMeal}</h1>
+    <h4>Ingredients</h4>
     `
     mealIngredientsDescription.appendChild(ul);
 }
