@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    width:60%;
+    height:80px;
+    margin-bottom: 15px;
+
+}
+
+.header-left{
+  float: left;
+  margin:15px 0px 10px 40px;
+  padding:10px 20px;
+  font-size: 22px;
+  letter-spacing:4px;
+  word-spacing: 10px;
+  font-weight: 500;
+}
+
+.header-right{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position:absolute;
+  right:50px;
+
+}
+.header-right a{
+    text-decoration: none;
+    margin:20px;
+    padding:10px 20px;
+    letter-spacing:3px;
+    font-size:18px;
+    color:rgb(27, 26, 27);
+}
+
+#search-section {
+    margin:0 auto 50px;
+    width:40%;
+   
+}
+
+#search-section input{
+    height:40px;
+    width:300px;
+    margin-right:-3px;
+    border-radius: 5px 0px 0px 5px;
+    padding:0px 10px;
+    border:none;
+    background-color: antiquewhite;
+    
+}
+#search-section button{
+    height:40px;
+    width:80px;
+    margin-left:0px;
+    background-color: skyblue;
+    border-radius:0px 5px 5px 0px;
+    border:none;
+}
+
+#meals-item-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    padding-left: 40px; 
+}
+
+.meal-Item-Name{
+    padding: 10px 5px;
+    margin:5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+}
+
+.meal-name{
+    padding: 20px;
+}
+
+.style-image{
+    width: 80%;
+    height: 70%;
+    padding: 10px 10px;
+}
+
+#meal-ingredients-area{
+    width: 35%;
+    margin-left:500px;
+    padding: 5px;
+    display:none;
+    text-align: center;
+    box-shadow: 5px 10px 5px grey;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+.style-image-meal{
+    width: 250px;
+    height: 250px;
+    padding: 10px 5px;
+    border-radius: 50%;
+   
+}
+#meal-ingredients-area ul{
+    padding:15px 10px;
+}
+#meal-ingredients-area li{
+    list-style-type: disc;
+    text-align: start;
+    font-size:15px;
+    margin-left:20px;
+    line-height: 1.8;
+}
+
+
